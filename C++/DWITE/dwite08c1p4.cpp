@@ -57,6 +57,9 @@ int main(){
                 sum += 50;
                 break;
             case 'C':
+                sum += 100;
+                break;
+            case 'D':
                 sum += 500;
                 break;
              case 'M':
