@@ -32,7 +32,7 @@ int main(){
             res ^= arr[x];
         }
         cout << res.count();
-        for (size_t j = 0; j < MAXI; j++)
+        for (int j = 0; j < MAXI; j++)
         {
             if(res[j]) cout << " " << (j - 30);
         }
