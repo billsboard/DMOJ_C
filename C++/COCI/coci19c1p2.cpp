@@ -12,7 +12,7 @@ bool prime(ll x){
     if(x == 2) return 1;
     int sq = sqrt(x);
     for(int i = 3; i <= sq; i+=2){
-        if(x % i == 0) return 0;
+        if(!(x % i)) return 0;
     }
     return x & 1;
 }
