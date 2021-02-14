@@ -3,7 +3,6 @@
 
 using namespace std;
 const int MAXN = 100001, MAXQ = 100001;
-
 struct val {
     int v, i;
     bool operator < (const val& b){
