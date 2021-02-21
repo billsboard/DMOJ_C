@@ -3,6 +3,8 @@
 This repository houses solutions for DMOJ problems. Problems will be organized by their problem code. For example, the problem with code `ccc00j1`
 refers to the problem at www.dmoj.ca/problem/ccc01j1.
 
+Additionally, this will also house problems from different other places, such as USACO, CSES problemset, Google, etc.
+
 Code in this repository will be written in C or C++.
 
 Note that some problems here may not actually be functional
