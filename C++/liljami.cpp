@@ -32,13 +32,13 @@ int main(){
     for (size_t i = 0; i < K; i++)
     {
         cin >> x;
-        update(x, 1, 1, N, 1);
+        update(x + 1, 1, 1, N, 1);
     }
 
     cin >> Q;
     for (size_t i = 0; i < Q; i++)
     {
         cin >> x >> y;
-        cout << query(x, y, 1, N, 1) << "\n";
+        cout << query(x + 1, y + 1, 1, N, 1) << "\n";
     }
 }
