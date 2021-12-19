@@ -56,8 +56,8 @@ int main(){
 
     cin >> N >> M;
 
-    q.reserve(50000);
-    nxt.reserve(50000);
+    q.reserve(6000);
+    nxt.reserve(6000);
 
     for (size_t i = 1; i <= N; i++)
     {

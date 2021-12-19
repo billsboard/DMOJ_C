@@ -10,14 +10,10 @@ int main() {
     cin.tie(0);
 
     cin >> W >> N;
-    for (size_t i = 1; i <= N; i++)
+    for (int i = 1; i <= N; i++)
     {
         cin >> psa[i];
         psa[i] += psa[i - 1];
-    }
-
-    for (int i = 1; i <= N; i++)
-    {
         if(psa[i] - psa[max(0, i - 4)] > W) break;
         cnt++;
     }

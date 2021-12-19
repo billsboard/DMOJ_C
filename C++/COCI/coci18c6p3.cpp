@@ -21,7 +21,6 @@ void recurse(int n, int k) {
             dp[n][k] = max(dp[n][k], dp[n - 1][k - i] + pts[arr[n] + i]);
         }
     }
-    
 }
 
 int main() {
